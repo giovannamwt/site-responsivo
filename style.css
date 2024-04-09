@@ -1,0 +1,29 @@
+:root {
+    font-size: 60px;
+}
+
+h1{
+    text-align: center;
+    color: #ADD4D9;
+}
+
+img{
+    width: 900px;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+@media (max-width: 768px){
+    :root{
+        font-size: 30px;
+    }
+    
+img{
+    width: 400px;
+}}
